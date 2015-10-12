@@ -1,0 +1,48 @@
+# Implement Newton's method for optimizing l(theta) and apply it to fit a logistic regression model to the data.
+# q1x.dat.txt contains inputs x in R^2
+# q1y.dat.txt contains outputs y in {0,1}
+
+input_filename = "q1x.dat.txt";
+output_filename = "q1y.dat.txt";
+
+# Load data
+X = importdata(input_filename);
+y = importdata(output_filename);
+
+# Computes the Hessian and returns as a nxn matrix
+function hessian = computeHessian(X, theta)
+	# i of m total instances, j of n total features
+	[m,n] = size(X);
+	hessian = zeros(n,n);
+	for i = 1:m,
+		# Compute the hypothesis
+		hx = sigmoid(X(i,:)*theta);
+		# Updates the hessian using this training instance
+		hessian = hessian - hx(1-hx)*X(i,:)'*X(i,:);
+	end
+endfunction
+
+# Performs Newton-Raphson method and returns two values:
+# ll: vector of log-likelihood values at each iteration
+# theta: parameters
+function [theta, ll] = newtonsMethod(X,y)
+	alpha = 0.0001;
+	max_iters = 500;
+	X = [ones(size(X,1),1), X]; # Append col of ones for intercept term
+	[m,n] = size(X);
+	theta = zeros(n+1, 1);  # Initialize theta
+	for k = 1:max_iters
+		hx = sigmoid(X*theta);
+		gradient = X' * (y-hx);		# gradient is (m by 1)
+		theta = theta - computeHessian(X,theta)\gradient;
+	end
+endfunction
+
+# What are the coefficients theta resulting from your fit?
+
+# Sigmoid function
+function a = sigmoid(z)
+	a = 1.0 ./ (1.0 + exp(-z));
+endfunction
+
+newtonsMethod(X,y)
