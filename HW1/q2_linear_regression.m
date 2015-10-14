@@ -28,6 +28,10 @@ function plotTrainingData(X,y,theta)
 	a = linspace(min(X), max(X));
 	b = theta(1)+theta(2)*a;
 	plot(a,b, 'k','LineWidth',2);
+	
+	legend('Data','Regression line')
+	xlabel('x'); ylabel('y');
+	title('Unweighted Linear Regression');
 end
 
 % Sigmoid function

@@ -10,8 +10,8 @@ X = importdata(input_filename);
 y = importdata(output_filename);
 
 % Performs weighted linear regression method and plots the fitted curve
-function plotWeightedLinRegression(X,y)
-	spacing = exp(-3);	% Amount of space in between each point
+function [queryX, hx1, hx2, hx3, hx4] = plotWeightedLinRegression(X,y)
+	spacing = exp(-1);	% Amount of space in between each point
 	% Query vector containing all the x values
 	% for which you want to predict y, added vertically
 	queryX = (linspace(min(X), max(X), abs(max(X)-min(X))/spacing))';
@@ -21,19 +21,46 @@ function plotWeightedLinRegression(X,y)
 	X = [ones(size(X,1),1), X];
 	[m,n] = size(queryX);
 
+	% Vector containing predicted outputs
+	hx1 = zeros(m,1);
+
 	for i = 1:m
 		queryXi=queryX(i,:)';
-		W = calculateWeightMatrix(queryXi, X);
+		W = calculateWeightMatrix(queryXi, X, 0.1);
 		theta = (X'*W*X)\(X'*W*y);
-		hx = theta'*queryXi;
-		plot(queryXi(2), hx, 'b.'); hold on
+		hx1(i) = theta'*queryXi;
 	end
 
+	hx2 = zeros(m,1);
+
+	for i = 1:m
+		queryXi=queryX(i,:)';
+		W = calculateWeightMatrix(queryXi, X, 0.3);
+		theta = (X'*W*X)\(X'*W*y);
+		hx2(i) = theta'*queryXi;
+	end
+
+	hx3 = zeros(m,1);
+
+	for i = 1:m
+		queryXi=queryX(i,:)';
+		W = calculateWeightMatrix(queryXi, X, 2);
+		theta = (X'*W*X)\(X'*W*y);
+		hx3(i) = theta'*queryXi;
+	end
+
+	hx4 = zeros(m,1);
+
+	for i = 1:m
+		queryXi=queryX(i,:)';
+		W = calculateWeightMatrix(queryXi, X, 10);
+		theta = (X'*W*X)\(X'*W*y);
+		hx4(i) = theta'*queryXi;
+	end
 end
 
 % Calculates the weight matrix for a particular query point xi
-function W = calculateWeightMatrix(xi, X)
-	tau = 0.8;	% Bandwidth parameter
+function W = calculateWeightMatrix(xi, X, tau)
 	[m,n] = size(X);
 	W = zeros(m,m);
 
@@ -43,13 +70,17 @@ function W = calculateWeightMatrix(xi, X)
 	end
 end
 
-% Plots data on axes x and y along with the
-% fitted linear regression line
-function plotTrainingData(X,y,theta)
-	[m,n] = size(X);
+% Plots data and predictions
+function plotData(X,y, queryX, hx1, hx2, hx3, hx4)
+	plot(X, y, 'r+'); hold on
+	plot(queryX(:,2), hx1, 'b', 'LineWidth',2); hold on
+	plot(queryX(:,2), hx2, 'g', 'LineWidth',2); hold on
+	plot(queryX(:,2), hx3, 'c', 'LineWidth',2); hold on
+	plot(queryX(:,2), hx4, 'm', 'LineWidth',2);
 
-	% X has one feature
-	plot(X, y, 'ro'); hold on
+	legend('Predictions','tau = 0.1', 'tau = 0.3', 'tau = 2', 'tau = 10', 'Location','southeast');
+	ylabel('y'); xlabel('x');
+	title('Weighted Linear Regression');
 end
 
 % Sigmoid function
@@ -58,6 +89,6 @@ function a = sigmoid(z)
 end
 
 
-plotWeightedLinRegression(X,y)
-plotTrainingData(X,y)
+[queryX, hx1, hx2, hx3, hx4] = plotWeightedLinRegression(X,y);
+plotData(X,y, queryX, hx1, hx2, hx3, hx4)
 pause

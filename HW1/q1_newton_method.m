@@ -71,6 +71,8 @@ function plotTrainingData(X,y,theta)
 	plot(a,b, 'k','LineWidth',2);
 
 	legend('y=1','y=0')
+	ylabel('x2'); xlabel('x1');
+	title('Newton-Raphson Method');
 
 	pause
 end
