@@ -1,6 +1,6 @@
 #!/usr/local/bin/octave
 
-[spmatrix, tokenlist, trainCategory] = readMatrix('MATRIX.TRAIN');
+[spmatrix, tokenlist, trainCategory] = readMatrix('MATRIX.TRAIN.200');
 trainMatrix = full(spmatrix);
 numTrainDocs = size(trainMatrix, 1);
 numTokens = size(trainMatrix, 2);
@@ -37,7 +37,7 @@ spamCounts = sum(spamMatrix);
 nonSpamCounts = sum(nonSpamMatrix);
 
 % logSpamCPs, logNonSpamCPs
-% are (1 x numTokens) Vectors containing log conditional probabilities of seeing token i in an email,
+% are (1 x numTokens) vectors containing log conditional probabilities of seeing token i in an email,
 % given the email is a spam or non-spam. With LaPlace smoothing.
 % Computed with with LaPlace smoothing and using following formula:
 % For spamProbs:
@@ -49,3 +49,21 @@ logNonSpamCPs = log((nonSpamCounts.+1)./(sum(nonSpamCounts)+numTokens));
 % Log probabilities (scalars) that an email is spam or not spam
 logPSpam = log(rows(spamMatrix)/numTrainDocs);
 logPNonSpam = log(rows(nonSpamMatrix)/numTrainDocs);
+
+%------------------------------------------------------------
+% Code to print out top most indicative words
+
+% (1 x numTokens) vector containing correlation measures for each word.
+% The more positive the value, the more indicative the word of spam
+indicative = logSpamCPs.-logNonSpamCPs;
+
+[sortedIndicative, sortIndices] = sort(indicative, 'descend');
+maxValues = sortedIndicative(1:5);
+maxValueIndices = sortIndices(1:5);
+
+tokenMatrix = strsplit(tokenlist);
+disp("")
+disp("Top 5 tokens most indicative of spam:")
+tokenMatrix{1,maxValueIndices}
+disp("")
+

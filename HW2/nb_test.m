@@ -54,30 +54,10 @@ aggregateNonSpamMatrix(wordIdx) = logNonSpamCPsExpanded(wordIdx);
 spam = sum(aggregateSpamMatrix,2)+logPSpam;
 nonSpam = sum(aggregateNonSpamMatrix,2)+logPNonSpam;
 
+% If log(P(W|spam)P(spam)) >= log(P(W|non-spam)P(non-spam))
+% label the email as spam
 spamIdx = spam >= nonSpam;
-
 output(spamIdx) = 1;
-
-TESTMATRIX=[1,0;
-			0,1;
-			1,1;
-			5,5;
-			0,3];
-
-NUMTESTDOCS=5;
-NUMTOKENS=2;
-SPAMCONDPROBS=[.5,.6];
-NONSPAMCONDPROBS=[.3,.2];
-
-idx=TESTMATRIX>0;
-
-AGGREGATEPROBSPAM=zeros(NUMTESTDOCS, NUMTOKENS);
-AGGREGATEPROBNOTSPAM=zeros(NUMTESTDOCS, NUMTOKENS);
-SPAMCONDPROBSEXPANDED=repmat(SPAMCONDPROBS, NUMTESTDOCS, 1);
-
-AGGREGATEPROBSPAM(idx)=SPAMCONDPROBSEXPANDED(idx);
-
-sum(AGGREGATEPROBSPAM, 2);
 
 
 %---------------
@@ -92,6 +72,7 @@ for i=1:numTestDocs
 end
 
 %Print out the classification error on the test set
+disp("Test classification error:")
 error/numTestDocs
 
 

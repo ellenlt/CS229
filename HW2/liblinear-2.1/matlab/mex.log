@@ -1,0 +1,2782 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=mex 2015.5.24)  27 OCT 2015 14:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**make
+(/usr/local/texlive/2015/texmf-dist/tex/mex/base/mex.tex
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+Preloading the MeX format:
+(/usr/local/texlive/2015/texmf-dist/tex/mex/base/mex1.tex
+polish auxiliary macros,
+Runaway definition?
+#1#2#3#4#5->\expandafter \def \csname f@nt#1\endcsname {#3}\donothyph@nate \ETC
+.
+! Forbidden control sequence found while scanning definition of \d@finelanguage
+.
+<inserted text> 
+                }
+<to be read again> 
+                   \newlanguage 
+l.350     \e\toks\e1\e{\e\newlanguage
+                                     \csname#1language\endcsname}%
+? 
+Runaway definition?
+#1#2#3#4#5->\expandafter \def \csname f@nt#1\endcsname {#3}\donothyph@nate \ETC
+.
+! Forbidden control sequence found while scanning definition of \d@finelanguage
+.
+<inserted text> 
+                }
+<to be read again> 
+                   \newlanguage 
+l.350     \e\toks\e1\e{\e\newlanguage
+                                     \csname#1language\endcsname}%
+? q
+OK, entering \batchmode...
+\csname=\language5
+! You can't use `macro parameter character #' in vertical mode.
+l.350     \e\toks\e1\e{\e\newlanguage\csname#
+                                             1language\endcsname}%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Extra \endcsname.
+l.350 ...\e\newlanguage\csname#1language\endcsname
+                                                  }%
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Too many }'s.
+l.350 ...e\newlanguage\csname#1language\endcsname}
+                                                  %
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+l.353     \endgroup
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+l.354     }
+           
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+ prefixing, definitions of languages,
+! Use of \csname doesn't match its definition.
+\donothyph@nate #1->\expandafter \let \csname h
+                                               yph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+
+\d@finesinglelanguage ...language {#1}{#2}{}{#3}{}
+                                                  \def \l@t {\expandafter \l...
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   y
+\donothyph@nate #1->\expandafter \let \csname hy
+                                                ph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+
+\d@finesinglelanguage ...language {#1}{#2}{}{#3}{}
+                                                  \def \l@t {\expandafter \l...
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\donothyph@nate ... \csname hyph@nat@#1\endcsname 
+                                                  F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+
+\d@finesinglelanguage ...language {#1}{#2}{}{#3}{}
+                                                  \def \l@t {\expandafter \l...
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\ch@rd ->\expandafter \chardef \csname e
+                                        nglishlanguage\endcsname 
+<inserted text> 
+                0
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+
+\d@finesinglelanguage ...language {#1}{#2}{}{#3}{}
+                                                  \def \l@t {\expandafter \l...
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   n
+\ch@rd ->\expandafter \chardef \csname en
+                                         glishlanguage\endcsname 
+<inserted text> 
+                0
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+
+\d@finesinglelanguage ...language {#1}{#2}{}{#3}{}
+                                                  \def \l@t {\expandafter \l...
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   n
+\ch@rd ->\expandafter \chardef \csname en
+                                         glishlanguage\endcsname 
+<inserted text> 
+                0
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+
+\d@finesinglelanguage ...language {#1}{#2}{}{#3}{}
+                                                  \def \l@t {\expandafter \l...
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\ch@rd ...ardef \csname englishlanguage\endcsname 
+                                                  
+<inserted text> 
+                0
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+
+\d@finesinglelanguage ...language {#1}{#2}{}{#3}{}
+                                                  \def \l@t {\expandafter \l...
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+<argument> e
+            nglish
+\d@finesinglelanguage ...pandafter \l@t \csname #1
+                                                  language\endcsname 
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \csname doesn't match its definition.
+\l@t ->\expandafter \let \csname e
+                                  nglish\endcsname 
+<argument> e
+            nglish
+\d@finesinglelanguage ...pandafter \l@t \csname #1
+                                                  language\endcsname 
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   n
+\l@t ->\expandafter \let \csname en
+                                   glish\endcsname 
+<argument> e
+            nglish
+\d@finesinglelanguage ...pandafter \l@t \csname #1
+                                                  language\endcsname 
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\l@t ...xpandafter \let \csname english\endcsname 
+                                                  
+<argument> e
+            nglish
+\d@finesinglelanguage ...pandafter \l@t \csname #1
+                                                  language\endcsname 
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Extra \endcsname.
+\d@finesinglelanguage ...ame #1language\endcsname 
+                                                  
+l.545 \d@finesinglelanguage{english}{}{\@nghyphen}
+                                                  %
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+<argument> p
+            l
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.635 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   l
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.635 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Use of \csname doesn't match its definition.
+\donothyph@nate #1->\expandafter \let \csname h
+                                               yph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.635 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   y
+\donothyph@nate #1->\expandafter \let \csname hy
+                                                ph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.635 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\donothyph@nate ... \csname hyph@nat@#1\endcsname 
+                                                  F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.635 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\ch@rd ->\expandafter \chardef \csname p
+                                        llanguage\endcsname 
+<inserted text> 
+                1
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.635 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   l
+\ch@rd ->\expandafter \chardef \csname pl
+                                         language\endcsname 
+<inserted text> 
+                1
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.635 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   l
+\ch@rd ->\expandafter \chardef \csname pl
+                                         language\endcsname 
+<inserted text> 
+                1
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.635 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\ch@rd ...r \chardef \csname pllanguage\endcsname 
+                                                  
+<inserted text> 
+                1
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.635 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+<argument> m
+            azovia
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.665 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   a
+<argument> ma
+             zovia
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.665 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Use of \csname doesn't match its definition.
+\donothyph@nate #1->\expandafter \let \csname h
+                                               yph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.665 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   y
+\donothyph@nate #1->\expandafter \let \csname hy
+                                                ph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.665 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\donothyph@nate ... \csname hyph@nat@#1\endcsname 
+                                                  F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.665 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\ch@rd ->\expandafter \chardef \csname m
+                                        azovialanguage\endcsname 
+<inserted text> 
+                2
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.665 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   a
+\ch@rd ->\expandafter \chardef \csname ma
+                                         zovialanguage\endcsname 
+<inserted text> 
+                2
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.665 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+\ch@rd ->\expandafter \chardef \csname ma
+                                         zovialanguage\endcsname 
+<inserted text> 
+                2
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.665 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\ch@rd ...ardef \csname mazovialanguage\endcsname 
+                                                  
+<inserted text> 
+                2
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.665 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+<argument> l
+            atintwo
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.695 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   a
+<argument> la
+             tintwo
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.695 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Use of \csname doesn't match its definition.
+\donothyph@nate #1->\expandafter \let \csname h
+                                               yph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.695 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   y
+\donothyph@nate #1->\expandafter \let \csname hy
+                                                ph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.695 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\donothyph@nate ... \csname hyph@nat@#1\endcsname 
+                                                  F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.695 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\ch@rd ->\expandafter \chardef \csname l
+                                        atintwolanguage\endcsname 
+<inserted text> 
+                3
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.695 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   a
+\ch@rd ->\expandafter \chardef \csname la
+                                         tintwolanguage\endcsname 
+<inserted text> 
+                3
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.695 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+\ch@rd ->\expandafter \chardef \csname la
+                                         tintwolanguage\endcsname 
+<inserted text> 
+                3
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.695 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\ch@rd ...rdef \csname latintwolanguage\endcsname 
+                                                  
+<inserted text> 
+                3
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.695 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+<argument> p
+            one
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.725 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   o
+<argument> po
+             ne
+\d@finelanguage ...expandafter \def \csname f@nt#1
+                                                  \endcsname {#3}\donothyph@...
+l.725 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Use of \csname doesn't match its definition.
+\donothyph@nate #1->\expandafter \let \csname h
+                                               yph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.725 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   y
+\donothyph@nate #1->\expandafter \let \csname hy
+                                                ph@nat@#1\endcsname F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.725 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\donothyph@nate ... \csname hyph@nat@#1\endcsname 
+                                                  F
+\d@finelanguage ...csname {#3}\donothyph@nate {#1}
+                                                  \def \ch@rd {\expandafter ...
+l.725 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\ch@rd ->\expandafter \chardef \csname p
+                                        onelanguage\endcsname 
+<inserted text> 
+                4
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.725 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   o
+\ch@rd ->\expandafter \chardef \csname po
+                                         nelanguage\endcsname 
+<inserted text> 
+                4
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.725 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   o
+\ch@rd ->\expandafter \chardef \csname po
+                                         nelanguage\endcsname 
+<inserted text> 
+                4
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.725 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\ch@rd ...\chardef \csname ponelanguage\endcsname 
+                                                  
+<inserted text> 
+                4
+\d@finelanguage ...ndafter \ch@rd \number \count@ 
+                                                  \relax \advance \count@ 1 ...
+l.725 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/mex/base/mexconf.tex MeX configuration,
+! Use of \csname doesn't match its definition.
+\hyph@nate #1->\expandafter \let \csname h
+                                          yph@nat@#1\endcsname T
+l.43 \hyph@nate{english}
+                        
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   y
+\hyph@nate #1->\expandafter \let \csname hy
+                                           ph@nat@#1\endcsname T
+l.43 \hyph@nate{english}
+                        
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\hyph@nate ... \let \csname hyph@nat@#1\endcsname 
+                                                  T
+l.43 \hyph@nate{english}
+                        
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\hyph@nate #1->\expandafter \let \csname h
+                                          yph@nat@#1\endcsname T
+l.44 \hyph@nate{pl}
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+<to be read again> 
+                   y
+\hyph@nate #1->\expandafter \let \csname hy
+                                           ph@nat@#1\endcsname T
+l.44 \hyph@nate{pl}
+                   
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Extra \endcsname.
+\hyph@nate ... \let \csname hyph@nat@#1\endcsname 
+                                                  T
+l.44 \hyph@nate{pl}
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+)
+! Use of \csname doesn't match its definition.
+<argument> e
+            nglish
+\r@adpatt ...\fi \expandafter \language \csname #1
+                                                  language\endcsname \expand...
+
+\r@adpatterns ...adpatt {english}{}{\@nghyphen }{}
+                                                  \r@adpatt {pl}{}{\P@lhyphe...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   n
+<argument> en
+             glish
+\r@adpatt ...\fi \expandafter \language \csname #1
+                                                  language\endcsname \expand...
+
+\r@adpatterns ...adpatt {english}{}{\@nghyphen }{}
+                                                  \r@adpatt {pl}{}{\P@lhyphe...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\r@adpatt ...anguage \csname #1language\endcsname 
+                                                  \expandafter \if \csname h...
+
+\r@adpatterns ...adpatt {english}{}{\@nghyphen }{}
+                                                  \r@adpatt {pl}{}{\P@lhyphe...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\r@adpatt ...\endcsname \expandafter \if \csname h
+                                                  yph@nat@#1\endcsname T\def...
+
+\r@adpatterns ...adpatt {english}{}{\@nghyphen }{}
+                                                  \r@adpatt {pl}{}{\P@lhyphe...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+ hyphenation [ENGLISH, empty],
+! Patterns can be loaded only by INITEX.
+\next ->\patterns 
+                  {}\hyphenation {}
+\r@adpatt ...ion [\l@nname \extram@ssage ],}\next 
+                                                  }
+\r@adpatterns ...adpatt {english}{}{\@nghyphen }{}
+                                                  \r@adpatt {pl}{}{\P@lhyphe...
+l.774 \r@adpatterns
+                   
+
+! Use of \csname doesn't match its definition.
+<argument> p
+            l
+\r@adpatt #1#2#3#4->{\csname f@nt#1
+                                   \endcsname #4\uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname 
+                                              #4\uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa
+                     \do Cc\do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   c
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   c
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   c
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   c
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa\do Cc
+                           \do Ee\do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   e
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   e
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   e
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   e
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa\do Cc\do Ee
+                                 \do Ll\do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1
+                               \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   l
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   l
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2
+                                          ="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase #1#2->\uccode "#1="#1 \lccode "#2="#2
+                                               \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   l
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   l
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...de "#1="#1 \lccode "#2="#2 \uccode "#2
+                                                  ="#1 \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#1="#1 \lccode "#2="#2 \uccode "#2="#1
+                                                   \lccode "#1="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...de "#2="#2 \uccode "#2="#1 \lccode "#1
+                                                  ="#2 
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Extra \endcsname.
+\P@lcd #1->\csname /#1#1\endcsname 
+                                   
+\P@lcase ...#2="#2 \uccode "#2="#1 \lccode "#1="#2
+                                                   
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll
+                                       \do Nn\do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Use of \csname doesn't match its definition.
+\P@lcd #1->\csname /
+                    #1#1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll\do Nn
+                                             \do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+
+\r@adpatterns ...}{\P@lhyphen }{\P@lhyphnotation }
+                                                  \r@adpatt {mazovia}{}{\P@l...
+l.774 \r@adpatterns
+                   
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   N
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll\do Nn
+                                             \do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   N
+\P@lcd #1->\csname /#1
+                      #1\endcsname 
+\P@lcase #1#2->\uccode "#1
+                          ="#1 \lccode "#2="#2 \uccode "#2="#1 \lccode "#1="#2 
+
+\UClcP@llist ->\do Aa\do Cc\do Ee\do Ll\do Nn
+                                             \do Oo\do Ss\do Xx\do Zz
+\P@lhyphnotation ->\m@ptwo \P@lcase \UClcP@llist 
+                                                 \prefixing 
+\r@adpatt #1#2#3#4->{\csname f@nt#1\endcsname #4
+                                                \uppercase {\def \l@nname {#...
+...
+l.774 \r@adpatterns
+                   
+(That makes 100 errors; please try again.)
+No pages of output.

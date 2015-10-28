@@ -1,4 +1,4 @@
-addpath('liblinear-1.7/matlab');  % add LIBLINEAR to the path
+addpath('/afs/ir.stanford.edu/users/n/i/nikhilp/public/liblinear/matlab/')
 [sparseTestMatrix, tokenlist, testCategory] = readMatrix('MATRIX.TEST');
 
 numTestDocs = size(sparseTestMatrix, 1);
@@ -25,7 +25,10 @@ output = zeros(numTestDocs, 1);
 %---------------
 % YOUR CODE HERE
 
-
+testVec = full(testCategory)';
+testVec(find(testVec==0))=-1;
+[output, accuracy, estimates] = predict(testVec, sparseTestMatrix, model);
+output(find(output==-1))=0;
 
 %---------------
 
