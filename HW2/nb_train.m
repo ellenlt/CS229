@@ -1,6 +1,6 @@
 #!/usr/local/bin/octave
 
-[spmatrix, tokenlist, trainCategory] = readMatrix('MATRIX.TRAIN.200');
+[spmatrix, tokenlist, trainCategory] = readMatrix('MATRIX.TRAIN');
 trainMatrix = full(spmatrix);
 numTrainDocs = size(trainMatrix, 1);
 numTokens = size(trainMatrix, 2);
@@ -37,7 +37,8 @@ spamCounts = sum(spamMatrix);
 nonSpamCounts = sum(nonSpamMatrix);
 
 % logSpamCPs, logNonSpamCPs
-% are (1 x numTokens) vectors containing log conditional probabilities of seeing token i in an email,
+% are (1 x numTokens) vectors containing log conditional probabilities
+% of seeing token i in an email,
 % given the email is a spam or non-spam. With LaPlace smoothing.
 % Computed with with LaPlace smoothing and using following formula:
 % For spamProbs:

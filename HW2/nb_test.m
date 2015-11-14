@@ -41,11 +41,11 @@ logNonSpamCPsExpanded = repmat(logNonSpamCPs, numTestDocs, 1);
 wordIdx = testMatrix>0;
 
 % aggregateSpamMatrix and aggregateNonSpamMatrix are (numTestDocs x numTokens) matrices
-% containing log P(token|spam) and log P(token|non-spam) for words which appear
+% containing n*log P(token|spam) and n*log P(token|non-spam) for words which appear n times.
 aggregateSpamMatrix = zeros(numTestDocs, numTokens);
-aggregateSpamMatrix(wordIdx) = logSpamCPsExpanded(wordIdx);
+aggregateSpamMatrix(wordIdx) = logSpamCPsExpanded(wordIdx).*testMatrix(wordIdx);
 aggregateNonSpamMatrix = zeros(numTestDocs, numTokens);
-aggregateNonSpamMatrix(wordIdx) = logNonSpamCPsExpanded(wordIdx);
+aggregateNonSpamMatrix(wordIdx) = logNonSpamCPsExpanded(wordIdx).*testMatrix(wordIdx);
 
 % spam and nonSpam
 % are (numTestDocs x 1) vectors that contain
