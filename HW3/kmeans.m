@@ -1,12 +1,3 @@
-pkg load statistics
-
-%r = rand(5,5);
-%g = rand(5,5);
-%b = rand(5,5);
-%B(:,:,1) = r;
-%B(:,:,2) = g;
-%B(:,:,3) = b;
-
 % compressImage
 % Input: imageData: 3D matrix where m(:,:,1), m(:,:,2), and m(:,:,3) are nxn 2D matrices
 %		 			containing the R,G,B values for each of n^2 pixels
@@ -43,7 +34,7 @@ function [clusterAssignments, centroids] = runKMeans(data, minIters, centroids, 
 		% Assign each point to closest cluster
 		newClusterAssignments = assignClusters(data, centroids);
         % Stop if cluster assignments converge, for at least 30 iterations
-        if newClusterAssignments == clusterAssignments && i > minIters
+        if newClusterAssignments == clusterAssignments & i > minIters
             clusterAssignments = newClusterAssignments;
             break;
         end
@@ -111,4 +102,3 @@ imshow(uint8(round(B)));
 
 compressedImage = compressImage(B, 16, 30);
 imshow(uint8(round(compressedImage)));
-
